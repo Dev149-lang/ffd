@@ -18,7 +18,7 @@
 // console.log(negValue);
 
 // console.log(2/0);
-console.log(+true);
+console.log(3+true);
 console.log(+"");
 
 
