@@ -19,9 +19,13 @@ const gamename = new String('hitutrinot');
 // console.log(gamename.toUpperCase());
 // console.log(gamename.charAt(2));
 
-const anotherstring = gamename.slice(-2,7)
+const anotherstring = gamename.slice(-9,8)
 console.log(anotherstring);
 
+
+const nallastring = "  raghurtartui "
+console.log(nallastring);
+console.log(nallastring.trim());
 
 
 
