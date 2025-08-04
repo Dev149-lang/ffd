@@ -28,5 +28,10 @@ console.log(nallastring);
 console.log(nallastring.trim());
 
 
+const url = "https://dev.com/ram%20love"
+
+console.log(url.replace('%20', '-'));
+
+console.log(url.includes('dev'));
 
 
