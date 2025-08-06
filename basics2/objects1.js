@@ -29,4 +29,10 @@ console.log(jsuser.age);
  console.log(typeof (jsuser[mysym])); // string cuz the notation is right
 
 
-//   jsjd
+//   jsjd ghhh nnbb ......gggn
+
+jsuser.greeeting =  function(){
+    console.log("hellow user")
+    }
+
+  console.log(jsuser.greeeting);
