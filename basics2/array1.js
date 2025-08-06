@@ -21,20 +21,31 @@ const myarr = [0,1,2,3,4,5,6,7]
 
 // splic, slice
 
-console.log("A", myarr);
-const myn1 = myarr.slice(1,4)
+// console.log("A", myarr);
+// const myn1 = myarr.slice(1,4)
 
-console.log(myn1);
+// console.log(myn1);
 
-const myn2 = myarr.splice(1,4)
-console.log(myarr);
+// const myn2 = myarr.splice(1,4)
+// console.log(myarr);
 
-console.log(myn2);
+// console.log(myn2);
+
+///kkkk
+
+const marve = ["ghg","hk", "eff"]
+const dc = ["eswwd","erff","tyy"]
+
+// marve.push(dc)
+
+// console.log(marve);
 
 
 
 
+const der = marve.concat(dc)
+console.log(der);
 
- 
+ ///kkk
  
  
