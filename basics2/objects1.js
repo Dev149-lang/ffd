@@ -34,5 +34,9 @@ console.log(jsuser.age);
 jsuser.greeeting =  function(){
     console.log("hellow user")
     }
+jsuser.greeeting2=  function(){
+    console.log(`ellow ${this.location}`) 
+}
 
-  console.log(jsuser.greeeting);
+  console.log(jsuser.greeeting());
+  console.log(jsuser.greeeting2());
