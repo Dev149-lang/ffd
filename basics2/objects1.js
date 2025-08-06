@@ -1,9 +1,9 @@
 // singleton
 //  object liter
 
-const mysym = Symbol("key1")
+const mysym = Symbol("key1") // symbol
 
-const jsuser = {
+const jsuser = {                //object
     name: "dev", // can be written as "name" too
     age: 25 ,
     // mysym : "mykey1" wont work cux no [ ]
@@ -35,7 +35,7 @@ jsuser.greeeting =  function(){
     console.log("hellow user")
     }
 jsuser.greeeting2=  function(){
-    console.log(`ellow ${this.location}`) 
+    console.log(`ellow ${this.location}` ) 
 }
 
   console.log(jsuser.greeeting());
