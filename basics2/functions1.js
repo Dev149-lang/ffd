@@ -26,20 +26,36 @@
 // return number1+ number2;
     
     
+// // }
+
+// // console.log(add(4,5));
+
+
+// function loggedin(username){
+//     if(username === undefined   ){
+//             console.log("pls enter");
+//             return;
+//         }
+//  return `${username} is logged in`
 // }
 
-// console.log(add(4,5));
+// console.log(loggedin());
 
 
-function loggedin(username){
-    if(username === undefined   ){
-            console.log("pls enter");
-            return;
-        }
- return `${username} is logged in`
+
+function calculateprice(...num1) {
+return num1
+
 }
 
-console.log(loggedin());
+
+console.log(calculateprice (9200,400,500)); // gives array
+
+
+
+
+
+
 
 
 
